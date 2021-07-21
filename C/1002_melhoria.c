@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <math.h>
+
+// esse código não funciona dentro do ambiente do URI Online Judge
 
 #define PI 3.14159
 
@@ -8,7 +11,7 @@ int main()
         area = 0;
 
     scanf(" %f", &raio);
-    area = PI * (raio * raio);
+    area = PI * pow(raio, 2);
 
     printf("A=%.4f\n", area);
 
