@@ -2,7 +2,7 @@
 
 function regraMaiores($a, $b, $c, $d): bool
 {
-    return $b > $c && $d > $a;
+    return $b > $c AND $d > $a;
 }
 
 function regraSomaMaiores($a, $b, $c, $d): bool
@@ -13,10 +13,10 @@ function regraSomaMaiores($a, $b, $c, $d): bool
 function valida($a, $b, $c, $d): bool
 {
     return regraMaiores($a, $b, $c, $d)
-        && regraSomaMaiores($a, $b, $c, $d)
-        && $c >= 0
-        && $d >= 0
-        && $a % 2 == 0;
+        AND regraSomaMaiores($a, $b, $c, $d)
+        AND $c >= 0
+        AND $d >= 0
+        AND $a % 2 == 0;
 }
 
 function retornaMensagem(bool $valido): string
