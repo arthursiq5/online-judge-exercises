@@ -2,6 +2,6 @@
 
 $num1 = intval(readline());
 $num2 = intval(readline());
-$sum = $num1 * $num2;
+$prod = $num1 * $num2;
 
-echo 'SOMA = ' . $sum . PHP_EOL;
+echo 'PROD = ' . $prod . PHP_EOL;
