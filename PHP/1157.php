@@ -1,0 +1,9 @@
+<?php
+
+$entrada = intval(readline());
+
+for($i = 1; $i <= $entrada; $i++) {
+    if ($entrada % $i == 0) {
+        echo $i . PHP_EOL;
+    }
+}
