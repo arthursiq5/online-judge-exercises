@@ -2,8 +2,7 @@
 
 $tipo = intval(readline());
 
-$respostas = readline();
-$respostas = explode(' ', $respostas);
+$respostas = explode(' ', readline());
 
 $respostasCorretas = 0;
 
